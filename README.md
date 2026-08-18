@@ -10,5 +10,5 @@
 - bordado y tejido 
 - Creativa desde nacimiento artista hasta ahora.
 - No comer aguacate 
-- Se visual y sigue adelante 
+
 [instagram](https://www.instagram.com/visual.michs/)
