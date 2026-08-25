@@ -1,0 +1,44 @@
+body {
+  background: #ffffff;
+  color: rgb(255, 51, 0);
+ 
+
+
+  h1 {
+color: rgb(14, 5, 37);
+}
+
+
+h1 {
+  --box-color: rgb(255, 0, 119);
+  background-color: var(--box-color);
+}
+
+h1 
+{
+font-family: FuturReflex Pro Variable,;
+ font-weight: 500;
+ 
+}
+
+.child {
+  width: 100%;
+  height: 100%;
+  background-color: var(--box-color);
+ 
+}
+    
+    font-family: Futura, regular;
+    font-weight: 100;
+    font-size: 20px;
+
+  
+#portafolio-link {
+        float: right;
+    }
+    
+main img {
+    display: block;
+  margin: 0 auto;
+}
+}
