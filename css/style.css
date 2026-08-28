@@ -1,25 +1,38 @@
+
+
+  :root {
+--text-samall: 0.875ren;
+  --text-base: 1ren;  
+  --text-secundario: 2ren;
+  --text-principal: 3ren;
+  --font-title:Karmina, Bold;
+  --font-body: Futura, sans-serif;
+  --color-background: #ecfbc3;
+  --color-texttitle: rgb(7, 6, 39);
+    --color-textbody: rgb(255, 51, 0);
+  
+
+}
+
 body {
-  background: #ffffff;
-  color: rgb(255, 51, 0);
+
+p {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  color: var(--color-textbody);;
  
-
-
-  h1 {
-color: rgb(14, 5, 37);
 }
 
 
 h1 {
   --box-color: rgb(255, 0, 119);
   background-color: var(--box-color);
+  font-family: var(--font-title);
+  font-size: 70px;
+  color: var(--color-texttitle);
 }
 
-h1 
-{
-font-family: FuturReflex Pro Variable,;
- font-weight: 500;
- 
-}
+
 
 .child {
   width: 100%;
@@ -27,18 +40,21 @@ font-family: FuturReflex Pro Variable,;
   background-color: var(--box-color);
  
 }
-    
-    font-family: Futura, regular;
-    font-weight: 100;
-    font-size: 20px;
 
-  
+main img {
+  display: block;
+  margin: 0 auto;
+}
+   
+
 #portafolio-link {
         float: right;
     }
     
-main img {
-    display: block;
-  margin: 0 auto;
+h
+eader img {
+  display: block;
+  margin-bottom: 5px;
 }
+
 }
