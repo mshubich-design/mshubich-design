@@ -1,60 +1,167 @@
+:root {
 
-
-  :root {
---text-samall: 0.875ren;
-  --text-base: 1ren;  
-  --text-secundario: 2ren;
-  --text-principal: 3ren;
-  --font-title:Karmina, Bold;
+  --text-samall: 0.875rem;
+  --text-base: 1rem;
+  --text-secundario: 2rem;
+  --text-principal: 3rem;
+  --font-title: Karmina, Bold;
   --font-body: Futura, sans-serif;
-  --color-background: #ecfbc3;
+  --color-background: #f4fcdd;
   --color-texttitle: rgb(7, 6, 39);
-    --color-textbody: rgb(255, 51, 0);
-  
+  --color-textbody: rgb(255, 51, 0);
 
 }
 
+
 body {
+}
+
+
+/* Texto de los párrafos */
 
 p {
   font-family: var(--font-body);
   font-size: var(--text-base);
-  color: var(--color-textbody);;
- 
+  color: var(--color-textbody);
+
 }
 
 
+/* HEADER */
+
+header {
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+
+}
+
+
+/* Logos del header */
+
+header a img {
+
+  transition: transform 0.3s ease;
+
+}
+
+
+header a:hover img {
+
+  transform: scale(1.5);
+
+}
+
+
+/* Logo derecho */
+
+#portafolio-link {
+
+  float: none;
+
+}
+
+
+/* TÍTULO */
+
 h1 {
+
   --box-color: rgb(255, 0, 119);
   background-color: var(--box-color);
   font-family: var(--font-title);
   font-size: 70px;
   color: var(--color-texttitle);
+  margin-top: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-indent: -100%;
+  animation: moverTitulo 5s linear infinite;
+
 }
 
 
+/* Animación solamente del texto */
+
+@keyframes moverTitulo {
+
+  0% {
+
+    text-indent: -100%;
+
+  }
+
+  100% {
+
+    text-indent: 100%;
+
+  }
+
+}
+
+
+/* MAIN */
+
+main {
+
+  clear: both;
+
+}
+
+
+/* Child */
 
 .child {
+
   width: 100%;
   height: 100%;
   background-color: var(--box-color);
- 
+
 }
+
+
+/* Imagen principal */
 
 main img {
+
   display: block;
   margin: 0 auto;
-}
-   
 
-#portafolio-link {
-        float: right;
-    }
-    
-h
-eader img {
+}
+
+
+/* Imágenes del header */
+
+header img {
+
   display: block;
   margin-bottom: 5px;
-}
 
 }
+
+
+/* Social link */
+
+social-link {
+
+  background-color: var(--box-color);
+  color: var(--color-texttitle);
+  padding: .5em 1em;
+  margin: .5em;
+  border-radius: 1.5em;
+  text-decoration: none;
+
+}
+
+
+/* Instagram link */
+
+ig-link {
+
+  background-color: var(--box-color);
+  color: var(--color-texttitle);
+  padding: .5em 1em;
+
+
+  }
